@@ -21,7 +21,7 @@
   <PropertyGroup Label="Globals">
     <VCProjectVersion>18.0</VCProjectVersion>
     <Keyword>Win32Proj</Keyword>
-    <ProjectGuid>{8a2f63b7-d77f-4253-8c9e-a3b50a4ded9a}</ProjectGuid>
+    <ProjectGuid>{A1350217-6716-85EC-5BA8-24DD3F23765C}</ProjectGuid>
     <RootNamespace>EricDosNext</RootNamespace>
     <WindowsTargetPlatformVersion>10.0</WindowsTargetPlatformVersion>
   </PropertyGroup>
@@ -133,6 +133,9 @@
     <ClInclude Include="bitcpp.h" />
     <ClInclude Include="calculator.h" />
     <ClInclude Include="calendar.h" />
+    <ClInclude Include="main_menu.h" />
+    <ClInclude Include="settings.h" />
+    <ClInclude Include="store.h" />
     <ClInclude Include="tools.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

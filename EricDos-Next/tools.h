@@ -7,7 +7,13 @@
 #include <string>
 #include <cstdlib> // for system()
 
-using namespace std;
+// Don't import whole std namespace in headers to avoid symbol conflicts (e.g. `byte`)
+using std::string;
+using std::cout;
+using std::cin;
+using std::endl;
+using std::numeric_limits;
+using std::streamsize;
 
 void clear_screen() {
 #ifdef _WIN32
